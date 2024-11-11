@@ -62,5 +62,3 @@ fastlane/screenshots/**/*.png
 fastlane/test_output
 
 # add by omid for ignoring
-
-Extra Files/

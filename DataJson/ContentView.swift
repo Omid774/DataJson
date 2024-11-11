@@ -8,17 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var data = ReadJsonData()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Start Project!")
+            List(data.users) { info in
+                VStack(alignment: .leading) {
+                    HStack {
+                        Text(info.name)
+                            .font(.title)
+                        Text(info.job)
+                            .font(.body)
+                    }
+                    Text(info.email)
+                }
+            }
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
+
+//#Preview {
+//    ContentView()
+//}

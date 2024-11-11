@@ -11,6 +11,8 @@
 		F724B7E62CE21A0300C6E244 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F724B7E52CE21A0300C6E244 /* ContentView.swift */; };
 		F724B7E82CE21A0400C6E244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F724B7E72CE21A0400C6E244 /* Assets.xcassets */; };
 		F724B7EB2CE21A0400C6E244 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F724B7EA2CE21A0400C6E244 /* Preview Assets.xcassets */; };
+		F7CB3FD82CE24B8800077FBA /* ReadJsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB3FD72CE24B8800077FBA /* ReadJsonData.swift */; };
+		F7CB3FDA2CE24CA700077FBA /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = F7CB3FD92CE24CA700077FBA /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		F724B7E52CE21A0300C6E244 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F724B7E72CE21A0400C6E244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F724B7EA2CE21A0400C6E244 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7CB3FD72CE24B8800077FBA /* ReadJsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadJsonData.swift; sourceTree = "<group>"; };
+		F7CB3FD92CE24CA700077FBA /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = "Extra Files/data.json"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		F724B7E22CE21A0300C6E244 /* DataJson */ = {
 			isa = PBXGroup;
 			children = (
+				F7CB3FD92CE24CA700077FBA /* data.json */,
 				F724B7E32CE21A0300C6E244 /* DataJsonApp.swift */,
 				F724B7E52CE21A0300C6E244 /* ContentView.swift */,
 				F724B7E72CE21A0400C6E244 /* Assets.xcassets */,
 				F724B7E92CE21A0400C6E244 /* Preview Content */,
+				F7CB3FD72CE24B8800077FBA /* ReadJsonData.swift */,
 			);
 			path = DataJson;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F724B7EB2CE21A0400C6E244 /* Preview Assets.xcassets in Resources */,
+				F7CB3FDA2CE24CA700077FBA /* data.json in Resources */,
 				F724B7E82CE21A0400C6E244 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7CB3FD82CE24B8800077FBA /* ReadJsonData.swift in Sources */,
 				F724B7E62CE21A0300C6E244 /* ContentView.swift in Sources */,
 				F724B7E42CE21A0300C6E244 /* DataJsonApp.swift in Sources */,
 			);
